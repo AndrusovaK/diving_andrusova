@@ -1,3 +1,5 @@
+/*Grid*/
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -693,3 +695,56 @@
 .pull-left {
   float: left !important;
 }
+
+
+/*Общие стили*/
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/latoregular.woff2') format('woff2'),
+		url('../fonts/latoregular.woff') format('woff'),
+		url('../fonts/latoregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/latoitalic.woff2') format('woff2'),
+		url('../fonts/latoitalic.woff') format('woff'),
+		url('../fonts/latoitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/latomedium.woff2') format('woff2'),
+		url('../fonts/latomedium.woff') format('woff'),
+		url('../fonts/latomedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/latobold.woff2') format('woff2'),
+		url('../fonts/latobold.woff') format('woff'),
+		url('../fonts/latobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+	color: #13152f;
+	font-weight: 400;
+}
+
+
+.center {
+	text-align: center;
+}
+
+/*Стили главной*/
