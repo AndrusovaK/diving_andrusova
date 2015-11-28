@@ -32,7 +32,7 @@
   margin-right: -15px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-  position: relative;
+
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
@@ -664,7 +664,7 @@ body {
 
 .page-header {
 	min-height: 508px;
-	background: url(../img/bg_header.jpg) no-repeat 30% 0;
+	background: url(../img/bg_header.jpg) no-repeat 50% 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 16px 0 152px;
@@ -763,15 +763,15 @@ body {
 .header-subtitle {
 	color: #fff;
 	font-size: 24px;
+	line-height: 38px;
 	font-weight: 700;
 }
 
 .header-subtitle span {
 	display: inline-block;
 	background-color: #13152e;
-	height: 35px;
 	line-height: 35px;
-	margin-bottom: 2px;
+	height: 35px;
 	padding: 0px 80px 0px 12px;
 }
 
@@ -834,6 +834,66 @@ body {
 	background: url(../img/icon_rest.png) no-repeat 0 50%;
 }
 
+/*About us - photos*/
+
+.about-us-photos {
+	position: absolute;
+	right: 0;
+	font-size: 0;
+	height: 515px;
+	width: 50%;
+	padding-left: 15px;
+}
+
+.abous-us_img {
+	display: inline-block;
+	margin-right: 1%;
+	
+}
+
+.abous-us_img-1 {
+	width: 37%;
+	height: 339px;
+	background: url(../img/about-us-1.jpg) no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-bottom: 8px;
+}
+
+.abous-us_img-2 {
+	width: 62%;
+	height: 339px;
+	background: url(../img/about-us-2.jpg) no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	margin-right: 0;
+	margin-bottom: 8px;
+}
+
+.abous-us_img-3 {
+	width: 37%;
+	height: 166px;
+	background: url(../img/about-us-3.jpg) no-repeat 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.abous-us_img-4 {
+	width: 30.5%;
+	background: url(../img/about-us-4.jpg) no-repeat 50% 50%;
+	height: 166px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.abous-us_img-5 {
+	width: 30.5%;
+	margin-right: 0;
+	background: url(../img/about-us-5.jpg) no-repeat 50% 50%;
+	height: 166px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 
 /*Services*/
 
@@ -881,9 +941,19 @@ body {
 	font-family: 'Roboto Slab', serif;
 	font-weight: 300;
 	padding-left: 15px;
+	z-index: 5;
 }
 
 .service-hover {
+	position: absolute;
+	width: 100%;
+	height: 350px;
+	background-color: rgba(19,21,46, 0.86);
+	visibility: hidden;
+
+}
+
+.service-hover-text {
 	position: absolute;
 	font-size: 18px;
 	line-height: 26px;
@@ -891,9 +961,6 @@ body {
 	width: 220px;
 	right: 0;
 	bottom: 23px;
-	background: rgba (19,21,46, 0.8);
-	visibility: hidden;
-
 }
 
 .service-hover span {
@@ -1114,6 +1181,46 @@ body {
 	margin-bottom: 40px;
 }
 
+/*Feedback form*/
+
+.feedback-form {
+	margin: 0;
+	padding: 0;
+}
+
+.feedback-form input, .feedback-form textarea {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #3b9efa;
+}
+
+.feedback-form input {
+	display: inline-block;
+	height: 47px;
+	width: 47.5%;
+	margin-right: 4%;
+	margin-bottom: 32px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.feedback-form input:last-child {
+	margin-right: 0;
+	
+}
+
+.feedback-form input::-webkit-input-placeholder, 
+.feedback-form textarea::-webkit-input-placeholder {
+	color: #fff;
+	padding-left: 20px;
+}
+
+.feedback-form textarea {
+	width: 100%;
+}
+
 .feedback-btn {
 	min-width: 203px;
 	height: 50px;
@@ -1123,7 +1230,7 @@ body {
 }
 
 .copywrite {
-	padding-top: 40px;
+	padding-top: 35px;
 	font-size: 16px;
 	line-height: 36px;
 }
@@ -1147,14 +1254,26 @@ body {
 	background: url(../img/icon_vk.png) no-repeat 0 0;
 }
 
+.social-vk:hover {
+	background: url(../img/icon_vk-hover.png) 0 0;
+}
+
 .social-inst {
 	background: url(../img/icon_instagram.png) no-repeat 0 0;
+}
+
+.social-inst:hover {
+	background: url(../img/icon_instagram-hover.png) 0 0;
 }
 
 .social-google {
 	background: url(../img/icon_google.png) no-repeat 0 0;
 	-webkit-background-size: 100%;
 	background-size: 100%;
+}
+
+.social-google:hover {
+	background: url(../img/icon_google-hover.png) 0 0;
 }
 
 
