@@ -1,5 +1,9 @@
 /*Grid*/
 
+body {
+	overflow-x: hidden;
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
@@ -490,7 +494,7 @@ body {
 
 /*Header*/
 
-.page-header {
+.main-page-header {
 	min-height: 508px;
 	background: url(../img/bg_header.jpg) no-repeat 50% 50%;
 	-webkit-background-size: cover;
@@ -928,6 +932,7 @@ body {
 .team-member:hover .team-member_hover {
 	visibility: visible;
 	background-color: rgba(19,21,46,0.86);
+	cursor: pointer;
 }
 
 
@@ -1002,7 +1007,7 @@ body {
 
 /*Footer*/
 
-.page-footer {
+.main-page-footer {
 	min-height: 574px;
 	background: url(../img/bg_footer.jpg) no-repeat 50% 50%;
 	-webkit-background-size: cover;

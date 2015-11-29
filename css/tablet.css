@@ -1,6 +1,6 @@
 @media screen and (max-width:1219px) {
 
-	.page-header {
+	.main-page-header {
 		min-height: 408px;
 	}
 	
@@ -115,7 +115,7 @@
 		display: none;
 	}
 	
-	.oage-footer {
+	.main-page-footer {
 		min-height: 620px;
 		padding-top: 55px;
 	}
