@@ -1,0 +1,116 @@
+@media screen and (max-width: 767px) {
+	
+	.logo {
+		margin-left: 10px;
+	}
+	
+	.contacts-header {
+		margin-right: 10px;
+	}
+	
+	.adaptive-wrap {
+		display: block;
+	}
+	
+	.main-nav {
+		display: none;
+	}
+	
+	.adaptive-nav {
+		display: none;
+	}
+	
+	.header-title {
+		font-size: 24px;
+		line-height: 36px;
+		margin-left: 10px;
+	}
+	
+	.header-subtitle {
+		font-size: 18px;
+		width: 320px;
+		line-height: 30px;
+		margin-left: 10px;
+	}
+	
+	.header-subtitle span {
+		padding: 3px;
+	}
+	
+	.about-us {
+		min-height: 820px;
+	}
+	
+	.about-us-photos {
+		height: 145px;
+	}
+	
+	.photos-wrap {
+		height: 145px;
+	}
+	
+	.abous-us_img {
+		height: 145px;
+	}
+	
+	.service-item {
+		width: 96%;
+		margin-bottom: 30px;
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	.service-item:last-child {
+		margin-bottom: 0;
+	}
+	
+	.promo-text {
+		display: none;
+	}
+	
+	.promo-text-adaptive {
+		display: block;
+		width: 96%;
+	}
+	
+	.team-member, .team-member_hover {
+		width: 170px;
+		height: 170px;
+		font-size: 20px;
+		line-height: normal;
+	}
+	
+	.team-member img {
+		width: 170px;
+		height: 170px;
+	}
+	
+	.reviews {
+		min-height: 243px;
+	}
+	
+	.review-author {
+		display: none;
+	}
+	
+	.review-text {
+		width: 100%;
+		font-size: 18px;
+		padding: 0 34px;
+	}
+
+	.feedback-btn {
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 216px;
+	}
+	
+	.copywrite, .socials {
+		text-align: center;
+	}
+	
+	.socials {
+		margin-top: 24px;
+	}
+	
+}

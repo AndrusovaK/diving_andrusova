@@ -12,13 +12,11 @@
   }
 }
 
-/*@media screen and (min-width: 992px) {*/
-/*
+@media screen and (min-width: 992px) {
   .container {
     width: 970px;
   }
-*/
-/*}*/
+}
 
 @media screen and (min-width: 1220px) {
   .container {
@@ -41,7 +39,9 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4 {
+
+@media screen and (max-width: 767px) {
+	.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4 {
   float: left;
 }
 .col-xs-4 {
@@ -71,8 +71,10 @@
 }
 .col-xs-offset-0 {
   margin-left: 0%;
+}	
 }
-@media screen and (min-width: 768px) and (max-width: 991px) {
+
+@media screen and (min-width: 768px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
   }
@@ -153,7 +155,7 @@
     margin-left: 0%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1220px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
   }
@@ -234,6 +236,7 @@
     margin-left: 0%;
   }
 }
+
 
 /*
 @media (min-width: 1200px) {
@@ -395,6 +398,8 @@
   }
 }
 */
+
+
 .clearfix:before,
 .clearfix:after,
 .container:before,
@@ -496,6 +501,13 @@ body {
 .logo {
 	float: left;
 	margin-right: 50px;
+	width: 124px;
+	height: 111px;
+}
+
+
+.adaptive-nav {
+	display: none;
 }
 
 .main-nav {
@@ -538,6 +550,46 @@ body {
 .main-nav a:hover {
 	border-bottom: 3px solid #4aa5f9;
 }
+
+/*Адаптвная менюшка*/
+
+.adaptive-wrap {
+	display: none;
+	position: absolute;
+	top: 100px;
+	clear: both;
+	background: rgba(255,255,255,0.9);
+	margin-top: 8px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+.adaptive-nav {
+	display: block;
+}
+	
+.adaptive-nav li {
+		padding-left: 17px;
+		margin-bottom: 10px;
+}
+	
+.adaptive-nav a {
+		color: #12142d;
+		font-weight: 500;
+		padding-bottom: 3px;
+}
+	
+.adaptive-nav a:hover {
+		border-bottom: 3px solid #4aa5f9;
+}
+	
+#touch-menu {
+		display: block;
+		height: 50px;
+		background: url(../img/icon_menu.png) no-repeat 97% 50%;
+}
+
+
 
 .contacts-header {
 	float: right;
@@ -589,14 +641,13 @@ body {
 	font-size: 24px;
 	line-height: 38px;
 	font-weight: 700;
+	width: 620px;
 }
 
 .header-subtitle span {
-	display: inline-block;
 	background-color: #13152e;
 	line-height: 35px;
 	height: 35px;
-	padding: 0px 80px 0px 12px;
 }
 
 
@@ -821,6 +872,13 @@ body {
 	margin: 0 auto;
 	line-height: 30px;
 	margin-bottom: 45px;
+}
+
+.promo-text-adaptive {
+	display: none;
+	margin: 0 auto;
+	line-height: 30px;
+	margin-bottom: 60px;
 }
 
 .promo-btn {
@@ -1082,7 +1140,7 @@ body {
 	margin-right: 42px;
 }
 
-.socials:last-child {
+.social:last-child {
 	margin-right: 0;
 }
 

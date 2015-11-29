@@ -1,14 +1,14 @@
-@media screen and (min-width: 768px) and (max-width:1199px) {
+@media screen and (max-width:1219px) {
 
 	.page-header {
 		min-height: 408px;
 	}
-
+	
 	.logo {
 		height: 80px;
 		width: 92px;
 	}
-	
+
 	.main-nav {
 		float: none;
 		clear: both;
@@ -38,8 +38,7 @@
 		min-height: 770px;
 		padding: 7px 0;
 	}
-
-
+	
 	.about-us-photos {
 		position: static;
 		width: 100%;

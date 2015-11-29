@@ -5,34 +5,48 @@
 	<title>Document</title>
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">	
 	<link rel="stylesheet" href="css/tablet.css">
-	
+	<link rel="stylesheet" href="css/phone.css">	
 </head>
 <body>
 
 	<header class="page-header">
 		<div class="container">
 			<div class="row">
-				<img src="img/logo.png" alt="" class="logo" width="124" height="111">
+				<img src="img/logo.png" alt="" class="logo">
 				<div class="contacts-header center">
 					<a href="" class="blue-btn phones">+7 911 123-45-65</a>
 					<a href="" class="blue-btn phones">547-12-89</a>
 				</div>
-				<nav class="main-nav">
-					<ul>
-						<li><a href="">Дайвинг</a></li>
-						<li><a href="">Места</a></li>
-						<li><a href="">Команда</a></li>
-						<li><a href="">Проживание</a></li>
-						<li><a href="">Контакты</a></li>
-					</ul>
-				</nav>
+					<nav class="main-nav">
+						<ul>
+							<li><a href="">Дайвинг</a></li>
+							<li><a href="">Места</a></li>
+							<li><a href="">Команда</a></li>
+							<li><a href="">Проживание</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+					</nav>
+
 				
+            	<div class="adaptive-wrap">
+					<a href="#" id="touch-menu"></a>
+					<nav class="adaptive-nav">
+						<ul>
+							<li><a href="">Дайвинг</a></li>
+							<li><a href="">Места</a></li>
+							<li><a href="">Команда</a></li>
+							<li><a href="">Проживание</a></li>
+							<li><a href="">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
 			</div>
+			
 			<div class="row">
 				<h1 class="header-title">Diving Dahab</h1>
-				<h2 class="header-subtitle"><span>Погрузитесь в мир волнительных</span><br><span>приключений вдали от суеты большого города</span></h2>
+				<h2 class="header-subtitle"><span>Погрузитесь в мир волнительных приключений вдали от суеты большого города</span></h2>
 			</div>
 		</div>
 	</header>
@@ -130,6 +144,7 @@
 				<div class="row center">
 					<p class="subtitle promo-title">Хватит думать, пора нырять!</p>
 					<p class="promo-text">Если дайвинг - это то, о чем ты так давно мечтал,  то пришло время действовать - просто оставь заявку  на предполагаемую дату начала погружений, а мы перезвоним тебе, обсудим детали и ответим на все твои вопросы!</p>
+					<p class="promo-text-adaptive">Просто оставь заявку на предполагаемую дату начала погружений, а мы перезвоним тебе, обсудим детали и ответим на все твои вопросы!</p>
 					<a href="" class="promo-btn blue-btn">Записаться</a>
 				</div>
 			</div>
@@ -256,7 +271,7 @@
 					<div class="col-md-3 col-sm-3 col-xs-4">
 						<p class="copywrite">&#169; Diving Dahab, 2015</p>
 					</div>
-					<div class="col-md-3 col-md-offset-6 col-sm-4 col-sm-offset-5 col-xs-4">
+					<div class="col-md-4 col-md-offset-5 col-sm-4 col-sm-offset-5 col-xs-4">
 						<div class="socials">
 							<a href="#" class="social social-vk"></a>
 							<a href="#" class="social social-inst"></a>
@@ -270,6 +285,25 @@
 
 
 	</main>
+	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var touch = $('#touch-menu');
+		    var menu = $('.adaptive-nav');
+		 
+		    $(touch).on('click', function(e) {
+		        e.preventDefault();
+		        menu.slideToggle();
+		    });
+		    $(window).resize(function(){
+		        var wid = $(window).width();
+		        if(wid > 760 && menu.is(':hidden')) {
+		            menu.removeAttr('style');
+		        }
+		    });
+		});
+	</script>
 	
 </body>
 </html>
