@@ -1,0 +1,140 @@
+@media screen and (min-width: 768px) and (max-width:1199px) {
+
+	.page-header {
+		min-height: 408px;
+	}
+
+	.logo {
+		height: 80px;
+		width: 92px;
+	}
+	
+	.main-nav {
+		float: none;
+		clear: both;
+		display: block;
+		min-width: 100%;
+		min-height: 50px;
+		margin-top: 13px;
+		text-align: center;
+	}
+
+	.main-nav li {
+		margin-right: 55px;
+		line-height: 50px;
+		font-size: 16px;
+	}
+
+	.contacts-header {
+		margin-top: 0;
+		margin-bottom: 11px;
+	}
+
+	.phones {
+		margin-bottom: 3px;
+	}
+
+	.about-us {
+		min-height: 770px;
+		padding: 7px 0;
+	}
+
+
+	.about-us-photos {
+		position: static;
+		width: 100%;
+		height: 350px;
+		padding: 0;
+		margin-bottom: 6px;
+	}
+
+	.photos-wrap {
+		position: absolute;
+		width: 100%;
+		height: 350px;
+		left: 0;
+		right: 0;
+	}
+
+	.abous-us_img {
+		height: 350px;
+	}
+
+	.abous-us_img-1, .abous-us_img-4, .abous-us_img-5 {
+		display: none;
+	}
+	.abous-us_img-2 {
+		margin-right: 1%;
+		width: 60%;
+		margin-bottom: 0;
+	}
+
+	.abous-us_img-3 {
+		height: 350px;
+		width: 39%;
+		margin-right: 0;
+	}
+
+	.service-item, .service-hover {
+		height: 360px;
+	}
+
+	.service-item-title {
+		font-size: 24px;
+		width: 185px;
+	}
+
+	.team-member {
+		width: 268px;
+		height: 268px;
+		margin-right: 4px;
+		overflow: hidden;
+	}
+
+	.review-author {
+		width: 33%;
+		margin-right: 7%;
+		height: 260px;
+	}
+	
+	.review-autor img {
+		width: 260px;
+		height: 260px;
+	}
+
+	.review-text {
+		width: 59%;
+		overflow: hidden;
+	}
+
+	.review-text:before, .review-text:after {
+		width: 19px;
+		height: 21px;
+	}
+	
+	.adaptive-hide {
+		display: none;
+	}
+	
+	.oage-footer {
+		min-height: 620px;
+		padding-top: 55px;
+	}
+	
+	.contacts-footer {
+		width: 100%;
+	}
+	
+	.feedback-form input {
+		margin-right: 3%;
+	}
+}
+
+
+
+
+
+
+
+
+
