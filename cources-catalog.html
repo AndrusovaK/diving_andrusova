@@ -15,12 +15,12 @@
 	<header class="page-header">
 		<div class="container">
 			<div class="row">
-				<img src="img/logo.png" alt="" class="logo">
+				<a href="index.html"><img src="img/logo.png" alt="" class="logo"></a>
 				<div class="contacts-header center">
 					<a href="" class="blue-btn phones">+7 911 123-45-65</a>
 					<a href="" class="blue-btn phones">547-12-89</a>
 				</div>
-					<nav class="main-nav">
+					<nav class="main-nav main-nav-inner-pages">
 						<ul>
 							<li><a href="">Дайвинг</a></li>
 							<li><a href="">Места</a></li>
@@ -50,14 +50,14 @@
 	
 	<!--Подменю-табы-->
 		<div class="subheader">
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
-					<nav class="courses-nav ">
-						<ul class="tabs">
-							<li class="tabs__item"><a href="">Для начинающих</a></li>
-							<li class="tabs__item tabs__item--active"><a href="">Для продвинутых</a></li>
-							<li class="tabs__item"><a href="">Спецкурсы</a></li>
-							<li class="tabs__item"><a href="">Персональный дайвинг</a></li>
+					<nav class="courses-nav">
+						<ul class="tabs" data-tabs-content-id="#tabs_content_1">
+							<li class="tabs__item"><a href="#tab1" class="subheader-title start-course">Для начинающих</a></li>
+							<li class="tabs__item tabs__item--active"><a href="#tab2" class="subheader-title experienced-course">Для продвинутых</a></li>
+							<li class="tabs__item"><a href="#tab3" class="subheader-title special-course">Спецкурсы</a></li>
+							<li class="tabs__item"><a href="#tab4" class="subheader-title personal-course">Персональный дайвинг</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -66,7 +66,7 @@
 		
 <!--Содержимое табов-->
 		<div id="tabs_content_1" class="tabs-content">
-  			<div id="tab1" class="tabs-content__item "></div>
+<!--  			<div id="tab1" class="tabs-content__item ">1</div>-->
 
  <!--Таб 2 - для продвинутых-->
  			
@@ -80,27 +80,42 @@
 								<div class="course-item">
 									<a href="">
 										<p class="course-title">Advanced Open Water Diver</p>
-										<img src="" alt="" class="course-img">
+										<img src="img/course-item-1.jpg" alt="" class="course-img">
 										<p class="course-price">от 240 €</p>
-										<p class="target-group">Кто хочет погружаться самостоятельно</p>
+										<p class="target-group">Кто хочет погружаться <br>самостоятельно</p>
 									</a>
 								</div>
 								<div class="course-item">
 									<a href="">
 										<p class="course-title">Emergency First Response</p>
-										<img src="" alt="" class="course-img">
+										<img src="img/course-item-2.jpg" alt="" class="course-img">
 										<p class="course-price">170 €</p>
-										<p class="target-group">Кто хочет знать, что делать в экстренной ситуации</p>
+										<p class="target-group">Кто хочет знать, что делать<br> в экстренной ситуации</p>
 									</a>
 								</div>
 								<div class="course-item">
 									<a href="">
 										<p class="course-title">Rescue Diver</p>
-										<img src="" alt="" class="course-img">
+										<img src="img/course-item-3.jpg" alt="" class="course-img">
 										<p class="course-price">от 300 €</p>
-										<p class="target-group">Кто хочет сделать дайвинг безопасным для окружающих</p>
+										<p class="target-group">Кто хочет сделать дайвинг <br>безопасным для окружающих</p>
 									</a>
 								</div>
+<!--
+								<div class="course-item">
+									<a href="">
+										<p class="course-title">Rescue Diver</p>
+										<img src="img/course-item-3.jpg" alt="" class="course-img">
+										<p class="course-price">от 300 €</p>
+										<p class="target-group">Кто хочет сделать дайвинг <br>безопасным для окружающих</p>
+									</a>
+								</div>
+-->
+								<div class="course-slider-nav">
+									<div class="prev"></div>
+									<div class="next"></div>
+								</div>
+								
 							</div>
 						</div>
 					</div>
@@ -112,7 +127,7 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-6 col-sm-7">
-								<table>
+								<table class="offers-table">
 									<tr>
 										<th>Прокат снаряжения</th>
 										<th>в день €</th>
@@ -183,7 +198,7 @@
 							<div class="col-md-6 col-sm-5">
 								<div class="offers-image">
 									<h3 class="service-item-title offers-img-title">Проживание</h3>
-									<p class="offers-img-text service-hover-text"><span>Посмотрите наши</span> <span>специальные</span><span>предложения на отели</span></p>
+									<p class="offers-img-text service-hover-text"><span>Посмотрите</span> <span>наши специальные</span><span> предложения на отели</span></p>
 								</div>
 							</div>
 						</div>
@@ -196,7 +211,7 @@
  					<div class="container">
  						<div class="row">
  							<div class="col-md-6 col-sm-12">
- 								<div class="video-container"><iframe src="" frameborder="0"></iframe></div>
+ 								<div class="video-container"><iframe src="https://www.youtube.com/embed/E91O_fN4Mpo"  allowfullscreen></iframe></div>
  							</div>
  							<div class="col-md-6">
  								<p class="subtitle learning-title">Мы выбираем PADI</p>
@@ -213,7 +228,7 @@
 					<div class="container">
 						<div class="row center">
 							<p class="subtitle promo-title">Хватит думать, пора нырять!</p>
-							<p class="promo-text">Оставь заявку на предполагаемую дату начала погружений</p>
+							<p class="promo-text">Оставь заявку на предполагаемую дату <br>начала погружений</p>
 							<a href="" class="promo-btn blue-btn">Записаться</a>
 						</div>
 					</div>
@@ -222,8 +237,10 @@
 			</div>
 <!--End tab-2-->
  			
- 			<div id="tab3" class="tabs-content__item">3</div>
-  			<div id="tab4" class="tabs-content__item">4</div>
+<!--
+ 			<div id="tab3" class="tabs-content__item"></div>
+  			<div id="tab4" class="tabs-content__item"></div>
+-->
   		</div>
 	</main>
 
@@ -245,8 +262,15 @@
  			</div>
  		</div>
  	</footer>
+ 		
  			
-  			
+ 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+ 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+ 	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>		
+	
+
+</body>		
 
 		
 		
