@@ -1,5 +1,7 @@
 @media screen and (max-width:1219px) {
 
+	
+/*main page*/
 	.main-page-header {
 		min-height: 408px;
 	}
@@ -126,6 +128,59 @@
 	
 	.feedback-form input {
 		margin-right: 3%;
+	}
+	
+/*end main page*/
+	
+/*All courses page*/
+
+	.subheader-title {
+/*		padding: 20px 10px;*/
+		text-align: center;
+		line-height: normal;
+	}
+	
+	.start-course:before {
+		background-position: 0 0;
+	}
+	
+	.offers {
+		padding-bottom: 62px;
+	}
+	
+	.learning {
+		background: #fff;
+		padding: 0;
+		min-height: 350px;
+	}
+	
+	.video-container iframe {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+	
+	.hide {
+		display: none;
+	}
+	
+/*sinle item page*/
+	
+	.single-course {
+		margin-top: 20px;
+	}
+	
+	.lesson-tabs {
+		text-align: center;
+	}
+	
+	.lessons-content {
+		margin-bottom: 50px;
+	}
+	
+	.lesson-text {
+		margin-bottom: 0;
 	}
 }
 

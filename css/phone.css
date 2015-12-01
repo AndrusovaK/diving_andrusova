@@ -10,6 +10,7 @@
 	
 	.adaptive-wrap {
 		display: block;
+		z-index: 5;
 	}
 	
 	.main-nav {
@@ -111,6 +112,73 @@
 	
 	.socials {
 		margin-top: 24px;
+	}
+	
+/*End main page*/
+	
+/*All courses page*/
+	
+	.subheader {
+		margin-top: 10px;
+		height: 360px;
+	}
+	
+	.tabs__item {
+		display: block;
+		width: 100%;
+	}
+	
+	.offers-table {
+		display: none;
+	}
+	
+	.courses-promo-text {
+		display: block;
+		width: 100%;
+	}
+	
+/*single course page*/
+	
+	.single-course {
+		margin-top: 35px;
+	}
+	
+	.single-course-title {
+		font-size: 24px;
+	}
+	
+	.single-course-numbers {
+		padding: 0;
+	}
+	
+	.single-course-numbers span{
+		font-size: 24px;
+		width: 50%;
+		line-height: 45px;
+	}
+	
+	.single-course-text {
+		font-size: 14px;
+		width: 100%;
+		left: 0;
+	}
+	
+	.lesson__number span {
+		display: none;
+	}
+	
+	.lesson__number a {
+		height: 40px;
+		min-width: 40px;
+		line-height: 40px;
+		
+	}
+	
+	.lesson__number {
+		margin-right: 4px;
+	}
+	.lesson__number:last-child {
+		margin-right: 0;
 	}
 	
 }

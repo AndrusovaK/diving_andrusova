@@ -1195,7 +1195,7 @@ body {
 /*subheader*/
 
 .subheader {
-	min-height: 90px;
+	height: 90px;
 	background: #13152e;
 }
 
@@ -1209,6 +1209,7 @@ body {
 	display: inline-block;
 	width: 25%;
 	vertical-align: middle;
+	height: 90px;
 }
 
 .subheader-title {
@@ -1216,7 +1217,13 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	padding: 30px 20px 30px 16px;
+/*	line-height: 90px;*/
 	width: 100%;
+	position: relative;
+	height: 90px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .tabs__item:hover, .tabs__item--active {
@@ -1475,6 +1482,8 @@ tr:first-child {
 	color: #fff;
 	font-size: 0px;
 	padding-top: 20px;
+	height: 90px;
+	background: rgba(19,21,46,0.7);
 }
 
 .single-course-numbers span {
@@ -1514,11 +1523,13 @@ tr:first-child {
 .lesson-tabs {
 	list-style: none;
 	margin-bottom: 30px;
+	font-size: 0;
 }
 
 .lesson__number {
 	display: inline-block;
 	vertical-align: middle;
+	font-size: 18px;
 }
 
 .lesson__number a {
