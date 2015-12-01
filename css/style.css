@@ -1269,7 +1269,8 @@ body {
 	text-align: center;
 }
 
-.course-item {
+.course-item a{
+	display: block;
 	width: 375px;
 	min-height: 500px;
 	-webkit-box-sizing: border-box;
@@ -1278,7 +1279,6 @@ body {
 	text-align: center;
 	background: #f9f7f7;
 	position: relative;
-	display: inline-block;
 }
 
 .course-title {
@@ -1307,6 +1307,34 @@ body {
 .target-group {
 	color: #1a1c34;
 	line-height: 24px;
+}
+
+.course-prev {
+	position: absolute;
+	background: url(../img/arrow-left.png) no-repeat 0 0;
+	width: 30px;
+	height: 56px;
+	left: 5%;
+	top: 546px;
+	cursor: pointer;
+}
+
+.course-prev:hover {
+	background: url(../img/arrow-left_hover.png) no-repeat 0 0;
+}
+
+.course-next {
+	position: absolute;
+	background: url(../img/arrow-right.png) no-repeat 0 0;
+	width: 30px;
+	height: 56px;
+	cursor: pointer;
+	right: 5%;
+	top: 546px;
+}
+
+.course-next:hover {
+	background: url(../img/arrow-right_hover.png) no-repeat 0 0;
 }
 
 /*Special offers*/
@@ -1530,6 +1558,11 @@ tr:first-child {
 	display: inline-block;
 	vertical-align: middle;
 	font-size: 18px;
+	margin-right: 5px;
+}
+
+.lesson__number:last-child {
+	margin-right: 0;
 }
 
 .lesson__number a {

@@ -140,6 +140,28 @@
 		line-height: normal;
 	}
 	
+	.all-courses {
+		padding: 40px 0 50px;
+		min-height: 590px;
+	}
+	
+	.course-item {
+		display: inline-block;
+		margin-right: 18px;
+	}
+	
+	.course-item:nth-child(2) {
+		margin-right: 0;
+	}
+	
+	.course-item:nth-child(n+3) {
+		display: none;
+	}
+	
+	.course-prev, .course-next {
+		display: none;
+	}
+	
 	.start-course:before {
 		background-position: 0 0;
 	}
@@ -169,6 +191,10 @@
 	
 	.single-course {
 		margin-top: 20px;
+	}
+	
+	.lesson__number {
+		margin-right: 7px;
 	}
 	
 	.lesson-tabs {

@@ -137,6 +137,23 @@
 		width: 100%;
 	}
 	
+	.course-item {
+		display: inline-block;
+		margin-right: 0;
+		margin-bottom: 17px;
+	}
+	
+	.course-item:nth-child(3) {
+		display: inline-block;
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	
+	
+	.course-prev, .course-next {
+		display: none;
+	}
+	
 /*single course page*/
 	
 	.single-course {
@@ -181,4 +198,11 @@
 		margin-right: 0;
 	}
 	
+}
+
+
+@media screen and (max-width: 400px) {
+	.course-item a {
+		width: 310px;
+	}
 }
