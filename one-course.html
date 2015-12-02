@@ -127,31 +127,27 @@
  <!-- End Lesson Tabs-->
  							
   							<div class="col-md-6 col-sm-12 col-xs-4">
-  								<div class="lesson-details">
-  									<a href="" class="lesson-details_title lesson-details-active">Снаряжение и гидрокостюм</a>
-  									<p class="lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
-Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
-  								</div>
-  								<div class="lesson-details">
-  									<a href="" class="lesson-details_title">Учебные материалы</a>
-<!--
-  									<p class="lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
-Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
--->
-  								</div>
-  								<div class="lesson-details">
-  									<a href="" class="lesson-details_title">Ячейка для хранения вещей</a>
-<!--
-  									<p class="lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
-Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
--->
-  								</div>
-  								<div class="lesson-details">
-  									<a href="" class="lesson-details_title">Страховка</a>
-<!--
-  									<p class="lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
-Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
--->
+  								<div class="accordeon">
+  									<div class="accordeon__item lesson-details">
+  										<a href="" class="accordeon__item-header lesson-details_title lesson-details-active">Снаряжение и гидрокостюм</a>
+  										<p class="accordeon__item-text lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
+  									Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
+  									</div>
+  									<div class="accordeon__item lesson-details">
+  										<a href="" class="accordeon__item-header lesson-details_title">Учебные материалы</a>
+  										<p class="accordeon__item-text lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
+  									Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
+  									</div>
+  									<div class="accordeon__item lesson-details">
+  										<a href="" class="accordeon__item-header lesson-details_title">Ячейка для хранения вещей</a>
+  										<p class="accordeon__item-text lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
+  									Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
+  									</div>
+  									<div class="accordeon__item lesson-details">
+  										<a href="" class="accordeon__item-header lesson-details_title">Страховка</a>
+  										<p class="accordeon__item-text lesson-details_text">На время прохождения курса Вам будет предоставлено все необходимое снаряжение. 
+  									Мы используем только самое новое оборудование ScubaPro и ScubaGear.</p>
+  									</div>
   								</div>
   							</div>
   						</div>
@@ -226,7 +222,16 @@
 		 }
 		
 	</script>
-
+	
+	<script>
+    var accordeon_content = document.getElementsByClassName("accordeon__item-text");
+    var len = accordeon_content.length;
+    if( typeof len == "number" ) {
+      for(i=0;i<len;i++){
+        accordeon_content[i].style.display='none';
+      }
+    }
+  </script>
 </body>		
 
 		

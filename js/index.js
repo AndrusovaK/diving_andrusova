@@ -25,8 +25,6 @@
 $('.courses-slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-  centerMode:true,
-  centerPadding: '30px',
   prevArrow: $('.course-prev'),
   nextArrow: $('.course-next'),
   responsive: [
@@ -71,4 +69,18 @@ $('#review-carousel').slick({
 	  }
 	}
   ]
+});
+
+
+//Аккордеон
+$(document).ready(function(){
+
+  $('.accordeon__item-header').on('click', function(){
+    $(this).closest('.accordeon').find('.accordeon__item-text').slideUp(200);
+    var this_block_content = $(this).closest('.accordeon__item').find('.accordeon__item-text');
+    if(this_block_content.is(':hidden')){
+      this_block_content.slideDown(200);
+    }
+  });
+
 });

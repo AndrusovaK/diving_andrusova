@@ -93,6 +93,11 @@
 		display: none;
 	}
 	
+	.review-prev, .review-next {
+		position: relative;
+		display: none;
+	}
+	
 	.review-text {
 		width: 100%;
 		font-size: 18px;
