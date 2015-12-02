@@ -98,6 +98,15 @@
 		font-size: 18px;
 		padding: 0 34px;
 	}
+	
+	.slick-slider {
+		min-height: 170px;
+	}
+	
+	.slick-dots {
+		width: 100%;
+		margin: 0;
+	}
 
 	.feedback-btn {
 		left: 0;
@@ -116,16 +125,26 @@
 	
 /*End main page*/
 	
+	
+	
 /*All courses page*/
 	
 	.subheader {
 		margin-top: 10px;
 		height: 360px;
 	}
-	
-	.tabs__item {
+
+	.courses-nav_item {
 		display: block;
 		width: 100%;
+	}
+	.courses-nav_item:nth-child(3) .course-name{
+		padding-top: 0;
+	}
+	.course-name {
+		line-height: 90px;
+		padding-top: 0;
+		width: auto;
 	}
 	
 	.offers-table {
@@ -184,11 +203,10 @@
 		display: none;
 	}
 	
-	.lesson__number a {
+	.lesson-tabs-link{
 		height: 40px;
 		min-width: 40px;
 		line-height: 40px;
-		
 	}
 	
 	.lesson__number {
@@ -196,6 +214,11 @@
 	}
 	.lesson__number:last-child {
 		margin-right: 0;
+	}
+	
+	.single-course-promo-text {
+		display: block;
+		width: 100%;
 	}
 	
 }

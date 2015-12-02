@@ -52,26 +52,23 @@
 		<div class="subheader">
 			<div class="container">
 				<div class="row">
-					<nav class="courses-nav">
-						<ul class="tabs" data-tabs-content-id="#tabs_content_1">
-							<li class="tabs__item"><a href="#tab1" class="subheader-title start-course">Для начинающих</a></li>
-							<li class="tabs__item tabs__item--active"><a href="#tab2" class="subheader-title experienced-course">Для продвинутых</a></li>
-							<li class="tabs__item"><a href="#tab3" class="subheader-title special-course">Спецкурсы</a></li>
-							<li class="tabs__item"><a href="#tab4" class="subheader-title personal-course">Персональный дайвинг</a></li>
-						</ul>
+					<nav class="courses-nav tabs__navigation">
+						<li class="courses-nav_item"><a href="#first" class="subheader-link"><span class="course-icon start-course"></span><span class="course-name">Для начинающих</span></a></li>
+						<li class="courses-nav_item"><a href="#second" class="subheader-link subheader-link--active"><span class="course-icon experienced-course"></span><span class="course-name">Для 
+							продвинутых</span></a></li>
+						<li class="courses-nav_item"><a href="#third" class="subheader-link"><span class="course-icon special-course"></span><span class="course-name">Спецкурсы</span></a></li>
+						<li class="courses-nav_item"><a href="#fourth" class="subheader-link"><span class="course-icon personal-course"></span><span class="course-name">Персональный 
+							дайвинг</span></a></li>
 					</nav>
 				</div>
 			</div>
 		</div>
 		
 <!--Содержимое табов-->
-		<div id="tabs_content_1" class="tabs-content">
-<!--  			<div id="tab1" class="tabs-content__item ">1</div>-->
 
- <!--Таб 2 - для продвинутых-->
- 			
-  			<div id="tab2" class="tabs-content__item tabs-content__item--active">
-  				<section class="single-course">
+ 		<!--Tab1-->
+  		<div id="first" class="tabs__section">
+			<section class="single-course">
   					<div class="container-fluid">
   						<div class="row">
   							<h1 class="single-course-title">Open Water Diver</h1>
@@ -95,18 +92,21 @@
   								
 					<!-- Табы-->
   								<div class="lessons-nav">
-  									<ul class="lesson-tabs" data-tabs-content-id="#lesson_tabs_content">
-  										<li class="lesson__number lesson-number__active"><a href="#lesson_tab1">1<span>-е занятие</span></a></li>
-  										<li class="lesson__number"><a href="#lesson_tab2" >2</a></li>
-  										<li class="lesson__number"><a href="#lesson_tab3" >3</a></li>
-  										<li class="lesson__number"><a href="#lesson_tab4" >4</a></li>
-  										<li class="lesson__number"><a href="#lesson_tab5" >5</a></li>
-  										<li class="lesson__number"><a href="#lesson_tab6" >6</a></li>
-  										<li class="lesson__number"><a href="#lesson_tab7" >7<span>-е занятие</span></a></li>
+  									<ul class="lesson-tabs">
+  										<li class="lesson__number lesson-number__active"><a href="#lesson_tab1" class="lesson-tabs-link lesson-tabs-link--active">1<span>-е занятие</span></a></li>
+  										<li class="lesson__number"><a href="#lesson_tab2" class="lesson-tabs-link">2</a></li>
+  										<li class="lesson__number"><a href="#lesson_tab3" class="lesson-tabs-link">3</a></li>
+  										<li class="lesson__number"><a href="#lesson_tab4" class="lesson-tabs-link">4</a></li>
+  										<li class="lesson__number"><a href="#lesson_tab5" class="lesson-tabs-link">5</a></li>
+  										<li class="lesson__number"><a href="#lesson_tab6" class="lesson-tabs-link">6</a></li>
+  										<li class="lesson__number"><a href="#lesson_tab7" class="lesson-tabs-link">7<span>-е занятие</span></a></li>
   									</ul>
   								</div>
-  								<div id="lesson_tabs_content" class="lessons-content">
-  									 <div id="lesson_tab1" class="lesson_tabs_content__item  lesson_tabs_content__item--active">
+ 									
+<!--Lesson Tabs content -->
+ 									 
+<!--Lesson Tab1-->
+  								<div id="lesson_tab1" class="lesson-tab-section">
 										<p class="subtitle lesson-title">Первое занятие</p>
   										<p class="lesson-text">За один-единственный урок можно не только узнать много нового и интересного, но и понять, войдет ли дайвинг в список ваших любимых занятий, или нет. В первую очередь, вы ознакомитесь
 с техникой безопасности , во время теоретической части вы узнаете основные базовые принципы и ознакомитесь с техникой подводного плавания.
@@ -114,20 +114,18 @@
   										<p class="lesson-text">После чего, вам предстоит совершить свое первое погружение
 в закрытой воде под руководством опытного инструктора.</p>
  									 </div>
-					<!--Закончился первый таб-->
+<!--End Lesson Tab1-->
  									 
-<!--
-  									 <div id="lesson_tab2" class="lesson_tabs_content__item">2</div>
-  									 <div id="lesson_tab3" class="lesson_tabs_content__item">3</div>
-  									 <div id="lesson_tab4" class="lesson_tabs_content__item">4</div>
-  									 <div id="lesson_tab5" class="lesson_tabs_content__item">5</div>
-  									 <div id="lesson_tab6" class="lesson_tabs_content__item">6</div>
-  									 <div id="lesson_tab7" class="lesson_tabs_content__item">7</div>
--->
+  								<div id="lesson_tab2" class="lesson-tab-section">2</div>
+  								<div id="lesson_tab3" class="lesson-tab-section">3</div>
+  								<div id="lesson_tab4" class="lesson-tab-section">4</div>
+  								<div id="lesson_tab5" class="lesson-tab-section">5</div>
+  								<div id="lesson_tab6" class="lesson-tab-section">6</div>
+  								<div id="lesson_tab7" class="lesson-tab-section">7</div>
   									
-								</div>
-  					<!-- Табы-->
   							</div>
+ <!-- End Lesson Tabs-->
+ 							
   							<div class="col-md-6 col-sm-12 col-xs-4">
   								<div class="lesson-details">
   									<a href="" class="lesson-details_title lesson-details-active">Снаряжение и гидрокостюм</a>
@@ -172,15 +170,27 @@
 				</div>
 <!--Promo with btn-->
 		
+		</div>
+<!--End Tab1-->
+
+
+
+ <!--Tab 2-->
+ 			
+  		<div id="second" class="tabs__section">
+  				
 		
 			</div>
 <!--End tab-2-->
  			
-<!--
- 			<div id="tab3" class="tabs-content__item"></div>
-  			<div id="tab4" class="tabs-content__item"></div>
--->
-  		</div>
+<!--Tab3-->
+ 		<div id="third" class="tabs__section">3</div>
+<!--End Tab-3-->
+ 										
+<!--Tab4-->
+  		<div id="fourth" class="tabs__section">4</div>
+<!--Tab4-->	
+
 	</main>
 
 			
@@ -208,6 +218,14 @@
  	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>		
 	
+	<script type="text/javascript" src="js/puretabs.js"></script>
+	<script>
+		 window.onload = function() {
+			 pureTabs.init('lesson-tabs-link', 'lesson-tabs-link--active');
+			 pureTabs.init('subheader-link', 'subheader-link--active');
+		 }
+		
+	</script>
 
 </body>		
 

@@ -944,6 +944,10 @@ body {
 	padding: 39px 0 36px;
 }
 
+.review-slider-wrap {
+	position: relative;
+}
+
 .review-author {
 	position: relative;
 	margin-right: 6.35%;
@@ -1003,6 +1007,33 @@ body {
 	-webkit-background-size: contain;
 	background-size: contain;
 }
+
+.review-prev {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url(../img/arrow-top.png) no-repeat 0 0;
+	width: 68px;
+	height: 38px;
+}
+
+.review-prev:hover {
+	background: url(../img/arrow-top_hover.png) no-repeat 0 0;
+}
+
+.review-next {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: url(../img/arrow-bottom.png) no-repeat 0 0;
+	width: 68px;
+	height: 38px;
+}
+
+.review-next:hover {
+	background: url(../img/arrow-bottom_hover.png) no-repeat 0 0;
+}
+
 
 
 /*Footer*/
@@ -1204,7 +1235,7 @@ body {
 	font-size: 0;
 }
 
-.tabs__item {
+.courses-nav_item {
 	font-size: 18px;
 	display: inline-block;
 	width: 25%;
@@ -1212,11 +1243,11 @@ body {
 	height: 90px;
 }
 
-.subheader-title {
+.subheader-link {
 	color: #fff;
 	display: inline-block;
 	vertical-align: middle;
-	padding: 30px 20px 30px 16px;
+/*	padding: 30px 20px 30px 16px;*/
 /*	line-height: 90px;*/
 	width: 100%;
 	position: relative;
@@ -1226,35 +1257,43 @@ body {
 	box-sizing: border-box;
 }
 
-.tabs__item:hover, .tabs__item--active {
+.courses-nav_item:hover {
 	background: #e86b0c;
 }
 
-.subheader-title:before {
-	content: '';
+.subheader-link--active {
+	background: #e86b0c;
+}
+
+.course-icon {
 	display: inline-block;
 	vertical-align: middle;
-	text-align: right;
-	margin-right: 8px;
-	height: 33px;
 	width: 35px;
+	margin-right: 5px;
+	height: 90px;
 }
 
-.start-course:before {
-	background: url(../img/icon-diving-tank-1.png) no-repeat 100% 0;
-	
+.course-name {
+	display: inline-block;
+	vertical-align: middle;
+	height: 90px;
+	line-height: 90px;
 }
 
-.experienced-course:before {
-	background: url(../img/icon-diving-tank-2.png) no-repeat 0 0;
+.start-course {
+	background: url(../img/icon-diving-tank-1.png) no-repeat 100% 50%;
 }
 
-.special-course:before {
-	background: url(../img/icon-fins.png) no-repeat 100% 0;
+.experienced-course {
+	background: url(../img/icon-diving-tank-2.png) no-repeat 0 50%;
 }
 
-.personal-course:before {
-	background: url(../img/icon-boat.png) no-repeat 100% 50%;	
+.special-course {
+	background: url(../img/icon-fins.png) no-repeat 100% 50%;
+}
+
+.personal-course {
+	background: url(../img/icon-boat.png) no-repeat 0 50%;	
 }
 
 
@@ -1565,7 +1604,7 @@ tr:first-child {
 	margin-right: 0;
 }
 
-.lesson__number a {
+.lesson-tabs-link {
 	display: inline-block;
 	height: 60px;
 	border: 1px solid #949494;
@@ -1579,11 +1618,8 @@ tr:first-child {
 	color: #949494;
 }
 
-.lesson-number__active {
+.lesson-tabs-link--active {
 	background-color: #13152e;
-}
-
-.lesson-number__active a{
 	color: #fff;
 	border: 1px solid transparent;
 }
