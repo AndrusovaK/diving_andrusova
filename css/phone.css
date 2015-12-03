@@ -2,6 +2,7 @@
 	
 	.logo {
 		margin-left: 10px;
+		margin-right: 40px;
 	}
 	
 	.contacts-header {
@@ -127,6 +128,37 @@
 	.socials {
 		margin-top: 24px;
 	}
+	
+/*pop up*/
+	
+	.hide-field {
+		display: none;
+	}
+	
+	.cd-popup-container {
+		width: 320px;
+		margin: 1em auto;
+		padding: 0 22px 30px 22px;
+	}
+	
+	.cd-popup-container p {
+		padding: 35px 0;
+		line-height: 30px;
+	}
+	
+	.form-row {
+		margin-bottom: 0;
+	}
+	
+	.form-field {
+		margin-bottom: 15px;	
+	}
+	
+	.cd-popup-container .cd-buttons li {
+		float: left;
+		margin-top: 30px;
+	}
+	
 	
 /*End main page*/
 	

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/tablet.css">
 	<link rel="stylesheet" href="css/phone.css">
 	<link rel="stylesheet" href="css/slick.css">
+	<script src="js/modernizr.js"></script>
 </head>
 <body>
 
@@ -146,10 +147,78 @@
 					<p class="subtitle promo-title">Хватит думать, пора нырять!</p>
 					<p class="promo-text">Если дайвинг - это то, о чем ты так давно мечтал,  то пришло время действовать - просто оставь заявку  на предполагаемую дату начала погружений, а мы перезвоним тебе, обсудим детали и ответим на все твои вопросы!</p>
 					<p class="promo-text-adaptive">Просто оставь заявку на предполагаемую дату начала погружений, а мы перезвоним тебе, обсудим детали и ответим на все твои вопросы!</p>
-					<a href="" class="promo-btn blue-btn">Записаться</a>
+					<a href="#0" class="cd-popup-trigger promo-btn blue-btn">Записаться</a>
+				
 				</div>
 			</div>
 		</section>
+		
+<!--Pop up-->
+		<div class="cd-popup" role="alert">
+			<div class="cd-popup-container">
+				<p>Оставьте заявку, и мы с вами свяжемся</p>
+				
+				<div class="form-row clearfix">
+					<div class="form-field pull-left">
+						<label for="course-field" class="">Выберите курс:</label><br>
+						<select name="course" id="course-field" class="max-size">
+							<option value="course1">1</option>
+							<option value="course2">2</option>
+							<option value="course3">3</option>
+							<option value="course4">4</option>
+						</select>
+					</div>
+					<div class="form-field pull-left">
+						<label for="">Имя</label><br>
+						<input type="text" name="name" id="name-field" class="max-size">
+					</div>
+				</div>
+				
+				<div class="form-row clearfix">
+					<div class="form-field pull-left hide-field">
+						<label for="from-month-field" class="">Начало занятий:</label><br>
+						<input type="text" name="from-day" class="narrow-size">
+						<select name="from-month" id="from-month-field" class="mid-size">
+							<option value="month1">Сентябрь</option>
+							<option value="month2">Октябрь</option>
+							<option value="month3">Ноябрь</option>
+							<option value="month4">Декабрь</option>
+						</select><br>
+						<span class="comment">Когда желаете начать обучение?</span>
+					</div>
+					<div class="form-field pull-left">
+						<label for="phone-field">Телефон</label><br>
+						<input type="text" name="phone" id="phone-field" class="max-size">
+					</div>
+				</div>
+				
+				<div class="form-row clearfix">
+					<div class="form-field pull-left hide-field">
+						<label for="to-day-field" >Свободны до:</label><br>
+						<input type="text" name="to-day" id="to-day-field" class="narrow-size">
+						<input type="text" name="to-month" id="to-month-field" class="mid-size"><br>
+						<span class="comment">До какой даты планируете заниматься?</span>
+					</div>
+					<div class="form-field pull-left">
+						<label for="email-field">e-mail</label><br>
+						<input type="text" name="email" id="email-field" class="max-size">
+					</div>
+				</div>
+				
+				<div class="form-row">
+					<label for="wishes-field">Пожелания</label><br>	
+					<textarea name="" rows="4" id="wishes-field" class="max-size"></textarea>
+				</div>
+				
+				
+					<ul class="cd-buttons">
+						<li><a href="#0" type="submit" class="promo-btn blue-btn">Записаться</a></li>
+					</ul>
+				<a href="#0" class="cd-popup-close img-replace">Close</a>
+			</div> 
+		</div> 
+<!--End pop up-->
+		
 <!--Promo-block-->
 
 
@@ -314,7 +383,6 @@
  	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
  	<script type="text/javascript" src="js/slick.min.js"></script>
 	<script type="text/javascript" src="js/index.js"></script>
-	
 	
 </body>
 </html>
