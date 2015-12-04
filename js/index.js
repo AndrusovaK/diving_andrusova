@@ -68,18 +68,6 @@ $('#review-carousel').slick({
 });
 
 
-//Аккордеон
-$(document).ready(function(){
-
-  $('.accordeon__item-header').on('click', function(){
-    $(this).closest('.accordeon').find('.accordeon__item-text').slideUp(200);
-    var this_block_content = $(this).closest('.accordeon__item').find('.accordeon__item-text');
-    if(this_block_content.is(':hidden')){
-      this_block_content.slideDown(200);
-    }
-  });
-
-});
 
 
 
@@ -106,3 +94,91 @@ jQuery(document).ready(function($){
 	    }
     });
 });
+
+
+//табы на странице 1 курса
+
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
+//Аккордеон
+//$(document).ready(function(){
+//
+//  $('.accordeon__item-header').on('click', function(){
+//    $(this).closest('.accordeon').find('.accordeon__item-text').slideUp(100);
+//    var this_block_content = $(this).closest('.accordeon__item').find('.accordeon__item-text');
+//    if(this_block_content.is(':hidden')){
+//      this_block_content.slideDown(200);
+//    }
+//	
+//  });
+//
+//});
+
+
+//Аккордеон
+
+  function AccordeonItem(e) {
+    console.log("asd");
+    var $e = $(e);
+    var text = $e.find('.lesson-details_text');
+    var header = $e.find('.lesson-details_title');
+    var isOpen = false;
+  	this.open = function() {
+      if (isOpen) {
+        return;
+      }
+      isOpen = true;
+      text.slideDown(200);
+      header.addClass('lesson-details-active');
+    };
+    this.close = function() {
+      isOpen = false;
+      text.slideUp(200);
+      header.removeClass('lesson-details-active');
+    };
+    this.click = function(fn) {
+      header.click(fn);
+    };
+  };
+
+  function AccordeonController(accordeonSelector, itemsSelector) {
+  var $accordeon = $(accordeonSelector);
+  var _items = $accordeon.find(itemsSelector);
+  var items = [];
+  for (var i = 0; i < _items.length; i++) {
+    items[i] = new AccordeonItem(_items[i]);
+    items[i].close();
+  }
+  var clicked = -1;
+  this.init = function() {
+    for (var i = 0; i < items.length; i++) {
+      var e = items[i];
+      (function(i, e) {
+        e.click(function() {
+          if (clicked != -1) {
+            items[clicked].close();
+          }
+          items[i].open();
+          clicked = i;
+        });
+      })(i, e);
+    }
+  };
+}
+
+var helper = new AccordeonController(".accordeon", ".accordeon__item");
+helper.init();
+
+

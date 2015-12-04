@@ -1626,9 +1626,10 @@ tr:first-child {
 	text-align: center;
 	line-height: 60px;
 	color: #949494;
+	cursor: pointer;
 }
 
-.lesson-tabs-link--active {
+li.current {
 	background-color: #13152e;
 	color: #fff;
 	border: 1px solid transparent;
@@ -1651,9 +1652,18 @@ tr:first-child {
 }
 
 
+.tab-content{
+	display: none;
+}
+
+.tab-content.current{
+	display: inherit;
+}
+
+
 /*lesson details*/
 
-.lesson-details {
+.accordeon__item {
 	background: #f9f7f7;
 	margin-bottom: 10px;
 }
@@ -1664,7 +1674,10 @@ tr:first-child {
 	height: 60px;
 	background-color: #eee;
 	color: #949494;
-	padding-left: 17px;
+	padding-left: 17px;	 transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+	cursor: pointer;
 }
 
 .lesson-details-active {
