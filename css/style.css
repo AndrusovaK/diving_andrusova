@@ -1312,10 +1312,23 @@ body {
 .all-courses {
 	min-height: 715px;
 	padding: 93px 0 125px;
+	text-align: center;
 }
 
-.courses-slider {
+.owl-carousel {
 	text-align: center;
+}
+
+.course-item {
+	width: 375px;
+	margin: 18px auto;
+}
+
+.owl-item.active div > a{
+	margin-top: -20px;
+	height: 540px;
+	width: 406px;
+	margin-left: -15px;
 }
 
 .course-item a{
@@ -1334,6 +1347,7 @@ body {
 	color: #e86b0c;
 	font-size: 24px;
 	line-height: 106px;
+	width: 100%;
 }
 
 .course-img {
@@ -1358,33 +1372,34 @@ body {
 	line-height: 24px;
 }
 
-.course-prev {
+.owl-prev {
 	position: absolute;
 	background: url(../img/arrow-left.png) no-repeat 0 0;
 	width: 30px;
 	height: 56px;
-	left: 5%;
-	top: 546px;
+	left: -50px;
+	top: 210px;
 	cursor: pointer;
 }
 
-.course-prev:hover {
+.owl-prev:hover {
 	background: url(../img/arrow-left_hover.png) no-repeat 0 0;
 }
 
-.course-next {
+.owl-next {
 	position: absolute;
 	background: url(../img/arrow-right.png) no-repeat 0 0;
 	width: 30px;
 	height: 56px;
 	cursor: pointer;
-	right: 5%;
-	top: 546px;
+	right: -50px;
+	top: 210px;
 }
 
-.course-next:hover {
+.owl-next:hover {
 	background: url(../img/arrow-right_hover.png) no-repeat 0 0;
 }
+
 
 /*Special offers*/
 

@@ -8,8 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">	
 	<link rel="stylesheet" href="css/tablet.css">
 	<link rel="stylesheet" href="css/phone.css">
-	<link rel="stylesheet" href="css/slick.css">
-	<script src="js/modernizr.js"></script>
+	<link rel="stylesheet" href="css/owl.carousel.css">
 </head>
 <body>
 
@@ -80,9 +79,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="client-courses-wrap">
-								<div class="courses-slider" id="courses-carousel">
+								<div class="owl-carousel" id="courses-carousel">
 									<div class="course-item">
-										<a href="">
+										<a href="#">
 											<p class="course-title">Advanced Open Water Diver</p>
 											<img src="img/course-item-1.jpg" alt="" class="course-img">
 											<p class="course-price">от 240 €</p>
@@ -90,7 +89,7 @@
 										</a>
 									</div>
 									<div class="course-item">
-										<a href="">
+										<a href="#">
 											<p class="course-title">Emergency First Response</p>
 											<img src="img/course-item-2.jpg" alt="" class="course-img">
 											<p class="course-price">170 €</p>
@@ -98,7 +97,7 @@
 										</a>
 									</div>
 									<div class="course-item">
-										<a href="">
+										<a href="#">
 											<p class="course-title">Rescue Diver</p>
 											<img src="img/course-item-3.jpg" alt="" class="course-img">
 											<p class="course-price">от 300 €</p>
@@ -106,7 +105,47 @@
 										</a>
 									</div>
 									<div class="course-item">
-										<a href="">
+										<a href="#">
+											<p class="course-title">Advanced Open Water Diver</p>
+											<img src="img/course-item-1.jpg" alt="" class="course-img">
+											<p class="course-price">от 240 €</p>
+											<p class="target-group">Кто хочет погружаться <br>самостоятельно</p>
+										</a>
+									</div>
+									<div class="course-item">
+										<a href="#">
+											<p class="course-title">Emergency First Response</p>
+											<img src="img/course-item-2.jpg" alt="" class="course-img">
+											<p class="course-price">170 €</p>
+											<p class="target-group">Кто хочет знать, что делать<br> в экстренной ситуации</p>
+										</a>
+									</div>
+									<div class="course-item">
+										<a href="#">
+											<p class="course-title">Rescue Diver</p>
+											<img src="img/course-item-3.jpg" alt="" class="course-img">
+											<p class="course-price">от 300 €</p>
+											<p class="target-group">Кто хочет сделать дайвинг <br>безопасным для окружающих</p>
+										</a>
+									</div>
+									<div class="course-item">
+										<a href="#">
+											<p class="course-title">Advanced Open Water Diver</p>
+											<img src="img/course-item-1.jpg" alt="" class="course-img">
+											<p class="course-price">от 240 €</p>
+											<p class="target-group">Кто хочет погружаться <br>самостоятельно</p>
+										</a>
+									</div>
+									<div class="course-item">
+										<a href="#">
+											<p class="course-title">Emergency First Response</p>
+											<img src="img/course-item-2.jpg" alt="" class="course-img">
+											<p class="course-price">170 €</p>
+											<p class="target-group">Кто хочет знать, что делать<br> в экстренной ситуации</p>
+										</a>
+									</div>
+									<div class="course-item">
+										<a href="#">
 											<p class="course-title">Rescue Diver</p>
 											<img src="img/course-item-3.jpg" alt="" class="course-img">
 											<p class="course-price">от 300 €</p>
@@ -114,10 +153,12 @@
 										</a>
 									</div>
 								</div>
+<!--
 								<div class="course-slider-nav">
 										<div class="course-prev"></div>
 										<div class="course-next"></div>
 								</div>
+-->
 							</div>
 						</div>
 					</div>
@@ -339,10 +380,9 @@
  		
  			
  	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
- 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
- 	<script type="text/javascript" src="js/slick.min.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>		
-	
+<!-- 	<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>-->
+<!-- 	<script type="text/javascript" src="js/slick.min.js"></script>-->
+				
 <!--Subheader tabs-->
 	<script type="text/javascript" src="js/puretabs.js"></script>
 	<script>
@@ -350,6 +390,45 @@
     	activeClassName = 'subheader-link--active' // Класс активной ссылки
   		pureTabs.init('subheader-link', 'subheader-link--active');
 	</script>
+<!--Subheader tabs-->
+	
+	<script src="js/owl.carousel.js"></script>
+	
+	<script>
+	$(document).ready(function () {
+  
+    var carousel = $("#courses-carousel");
+  
+		carousel.owlCarousel({
+     		items:3,
+	 		itemsDesktopSmall : [1219,2],
+    		itemsTablet: [768,1],
+    		itemsMobile : [479,1],
+	   		navigation:true,
+			navigationText:false,
+			autoPlay: 3000,
+	   
+     afterAction: function(el){
+       //remove class active
+       this
+       .$owlItems
+       .removeClass('active')
+      
+       //add class active
+       this
+       .$owlItems //owl internal $ object containing items
+       .eq(this.currentItem + 1)
+       .addClass('active')
+      
+     }
+     
+    });
+  
+  
+  
+});
+	</script>
+	<script type="text/javascript" src="js/index.js"></script>
 
 </body>		
 

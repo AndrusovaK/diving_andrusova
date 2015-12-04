@@ -18,25 +18,26 @@
 
 //Карусель стр. всех курсов
 
-$('.courses-slider').slick({
-  slidesToShow: 3,
-  slidesToScroll: 1,
-  prevArrow: $('.course-prev'),
-  nextArrow: $('.course-next'),
-  responsive: [
-	 {
-      breakpoint: 1900, 
-	  settings: "slick"
-	 },
-	  
-	  {
-      breakpoint: 1219, 
-	  settings: "unslick"
-	}
-  ]
-});
+//$('.courses-slider').slick({
+//  slidesToShow: 3,
+//  slidesToScroll: 1,
+//  prevArrow: $('.course-prev'),
+//  nextArrow: $('.course-next'),
+//  responsive: [
+//	 {
+//      breakpoint: 1900, 
+//	  settings: "slick"
+//	 },
+//	  
+//	  {
+//      breakpoint: 1219, 
+//	  settings: "unslick"
+//	}
+//  ]
+//});
 
 
+//Карусель на главной с отзывами
 $('#review-carousel').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
@@ -66,9 +67,6 @@ $('#review-carousel').slick({
 	}
   ]
 });
-
-
-
 
 
 //Pop up
