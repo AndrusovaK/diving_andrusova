@@ -16,27 +16,6 @@
 		});
 
 
-//Карусель стр. всех курсов
-
-//$('.courses-slider').slick({
-//  slidesToShow: 3,
-//  slidesToScroll: 1,
-//  prevArrow: $('.course-prev'),
-//  nextArrow: $('.course-next'),
-//  responsive: [
-//	 {
-//      breakpoint: 1900, 
-//	  settings: "slick"
-//	 },
-//	  
-//	  {
-//      breakpoint: 1219, 
-//	  settings: "unslick"
-//	}
-//  ]
-//});
-
-
 //Карусель на главной с отзывами
 $('#review-carousel').slick({
   slidesToShow: 1,
@@ -110,20 +89,6 @@ $(document).ready(function(){
 
 })
 
-//Аккордеон
-//$(document).ready(function(){
-//
-//  $('.accordeon__item-header').on('click', function(){
-//    $(this).closest('.accordeon').find('.accordeon__item-text').slideUp(100);
-//    var this_block_content = $(this).closest('.accordeon__item').find('.accordeon__item-text');
-//    if(this_block_content.is(':hidden')){
-//      this_block_content.slideDown(200);
-//    }
-//	
-//  });
-//
-//});
-
 
 //Аккордеон
 
@@ -180,3 +145,6 @@ var helper = new AccordeonController(".accordeon", ".accordeon__item");
 helper.init();
 
 
+
+
+	

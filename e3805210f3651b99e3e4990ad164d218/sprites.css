@@ -1,0 +1,202 @@
+.arrow-bottom, .arrow-bottom_hover, .arrow-top, .arrow-top_hover, .arrow-left, .arrow-left_hover, .arrow-right, .arrow-right_hover, .icon_books, .icon_message, .icon_rest, .icon_wifi, .icon_google, .icon_google-cyan, .icon_google-dark-blue, .icon_envelope, .icon_instagram, .icon_instagram-cyan, .icon_instagram-dark-blue, .icon_home, .icon_menu, .icon_minus, .icon_plus, .icon_phone, .icon_vk, .icon_vk-cyan, .icon_vk-dark-blue, .icon-diving-tank-1, .icon-diving-tank-2, .icon-fins, .icon-boat, .quote_left, .quote_right{
+	background: url(sprites.png) no-repeat;
+}
+
+.arrow-bottom{
+	background-position: 0 0;
+	width: 68px;
+	height: 38px;
+}
+
+.arrow-bottom_hover{
+	background-position: 0 -50px ;
+	width: 68px;
+	height: 38px;
+}
+
+.arrow-top{
+	background-position: -70px 0;
+	width: 68px;
+	height: 38px;
+}
+
+.arrow-top_hover{
+	background-position: -70px -50px ;
+	width: 68px;
+	height: 38px;
+}
+
+.arrow-left{
+	background-position: -150px 0;
+	width: 30px;
+	height: 56px;
+}
+
+.arrow-left_hover{
+	background-position: -180px 0;
+	width: 30px;
+	height: 56px;
+}
+
+.arrow-right{
+	background-position: -215px 0;
+	width: 30px;
+	height: 56px;
+}
+
+.arrow-right_hover{
+	background-position: -250px 0;
+	width: 30px;
+	height: 56px;
+}
+
+.icon_books{
+	background-position: 0 -100px ;
+	width: 30px;
+	height: 24px;
+}
+
+.icon_message{
+	background-position: 0 -150px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_rest{
+	background-position: -50px -99px ;
+	width: 24px;
+	height: 30px;
+}
+
+.icon_wifi{
+	background-position: -50px -150px ;
+	width: 30px;
+	height: 22px;
+}
+
+.icon_google{
+	background-position: -100px -100px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_google-cyan{
+	background-position: -150px -100px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_google-dark-blue{
+	background-position: -200px -100px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_envelope{
+	background-position: -300px 0;
+	width: 20px;
+	height: 14px;
+}
+
+.icon_instagram{
+	background-position: -100px -150px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_instagram-cyan{
+	background-position: -150px -150px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_instagram-dark-blue{
+	background-position: -200px -150px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_home{
+	background-position: -330px 0;
+	width: 20px;
+	height: 18px;
+}
+
+.icon_menu{
+	background-position: -250px -70px ;
+	width: 33px;
+	height: 30px;
+}
+
+.icon_minus{
+	background-position: -300px -50px ;
+	width: 20px;
+	height: 20px;
+}
+
+.icon_plus{
+	background-position: -330px -50px ;
+	width: 20px;
+	height: 20px;
+}
+
+.icon_phone{
+	background-position: -300px -80px ;
+	width: 20px;
+	height: 20px;
+}
+
+.icon_vk{
+	background-position: 0 -200px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_vk-cyan{
+	background-position: -50px -200px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon_vk-dark-blue{
+	background-position: -100px -200px ;
+	width: 30px;
+	height: 30px;
+}
+
+.icon-diving-tank-1{
+	background-position: -150px -200px ;
+	width: 20px;
+	height: 33px;
+}
+
+.icon-diving-tank-2{
+	background-position: -200px -200px ;
+	width: 35px;
+	height: 33px;
+}
+
+.icon-fins{
+	background-position: -250px -200px ;
+	width: 35px;
+	height: 31px;
+}
+
+.icon-boat{
+	background-position: -250px -150px ;
+	width: 35px;
+	height: 18px;
+}
+
+.quote_left{
+	background-position: -250px -125px ;
+	width: 25px;
+	height: 23px;
+}
+
+.quote_right{
+	background-position: -300px -125px ;
+	width: 25px;
+	height: 23px;
+}
+
