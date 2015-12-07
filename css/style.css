@@ -837,15 +837,19 @@ body {
 }
 
 .review-text:before{
-	background: url(../img/sprites.png) no-repeat -250px -125px;
+	background: url(../img/quote_left.png) no-repeat 0 0;
 	left: 0;
 	top: 5px;
+	-webkit-background-size: 100%;
+	background-size: 100%;
 }
 
 .review-text:after {
-	background: url(../img/sprites.png) no-repeat -300px -125px;
+	background: url(../img/quote_right.png) no-repeat 0 0;
 	right: 0;
 	bottom: 5px;
+	-webkit-background-size: 100%;
+	background-size: 100%;
 }
 
 .review-prev {
@@ -1145,7 +1149,7 @@ body {
 
 .all-courses {
 	min-height: 715px;
-	padding: 93px 0 125px;
+	padding: 93px 0 90px;
 	text-align: center;
 }
 
@@ -1723,4 +1727,9 @@ li.current {
 select, input, textarea {
 	border: 0;
 	background: #f9f7f7;
+}
+
+
+.owl-carousel.off {
+    display: block;
 }

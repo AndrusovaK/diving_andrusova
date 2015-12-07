@@ -96,7 +96,7 @@
 	
 	.review-prev, .review-next {
 		position: relative;
-		display: none;
+		display: none !important;
 	}
 	
 	.review-text {

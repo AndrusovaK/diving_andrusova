@@ -115,7 +115,7 @@
 	
 	.review-prev, .review-next {
 		position: relative;
-		display: none;
+		display: none !important;
 	}
 	
 	.slick-dots {
@@ -140,7 +140,6 @@
 	
 	.slick-dots li button
 {
-/*    font-size: 0;*/
     line-height: 0;
     display: block;
     width: 20px;
