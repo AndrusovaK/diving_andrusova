@@ -2,7 +2,7 @@
 		$(document).ready(function(){
 			var touch = $('#touch-menu');
 		    var menu = $('.adaptive-nav');
-		 
+
 		    $(touch).on('click', function(e) {
 		        e.preventDefault();
 		        menu.slideToggle();
@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
 		event.preventDefault();
 		$('.cd-popup').addClass('is-visible');
 	});
-	
+
 	//close popup
 	$('.cd-popup').on('click', function(event){
 		if( $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
@@ -50,7 +50,7 @@ $('#review-carousel').slick({
   nextArrow: $('.review-next'),
   responsive: [
 	 {
-      breakpoint: 1219, 
+      breakpoint: 1219,
 	 settings: {
 		 arrows: false,
 		 dots:true,
@@ -58,9 +58,9 @@ $('#review-carousel').slick({
 	     verticalSwiping: false,
 	 }
 	 },
-	  
+
 	  {
-      breakpoint: 767, 
+      breakpoint: 767,
 	  settings: {
 		  dots: true,
 		  arrows: false,
@@ -75,7 +75,7 @@ $('#review-carousel').slick({
 //табы на странице 1 курса
 
 $(document).ready(function(){
-	
+
 	$('ul.tabs li').click(function(){
 		var tab_id = $(this).attr('data-tab');
 
@@ -146,4 +146,4 @@ helper.init();
 
 
 
-	
+
