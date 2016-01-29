@@ -1,14 +1,9 @@
 @media screen and (max-width:1219px) {
 
-	
+
 /*main page*/
 	.main-page-header {
 		min-height: 408px;
-	}
-	
-	.logo {
-		height: 80px;
-		width: 92px;
 	}
 
 	.main-nav {
@@ -40,7 +35,7 @@
 		min-height: 770px;
 		padding: 7px 0;
 	}
-	
+
 	.about-us-photos {
 		position: static;
 		width: 100%;
@@ -76,6 +71,8 @@
 		margin-right: 0;
 	}
 
+
+
 	.service-item, .service-hover {
 		height: 360px;
 	}
@@ -85,6 +82,8 @@
 		width: 185px;
 	}
 
+
+
 	.team-member {
 		width: 268px;
 		height: 268px;
@@ -92,12 +91,14 @@
 		overflow: hidden;
 	}
 
+
+
 	.review-author {
 		width: 33%;
 		margin-right: 7%;
 		height: 260px;
 	}
-	
+
 	.review-autor img {
 		width: 260px;
 		height: 260px;
@@ -112,12 +113,12 @@
 		width: 19px;
 		height: 21px;
 	}
-	
+
 	.review-prev, .review-next {
 		position: relative;
 		display: none !important;
 	}
-	
+
 	.slick-dots {
 		position: absolute;
 		bottom: -10px;
@@ -127,7 +128,7 @@
     list-style: none;
     text-align: center;
 	}
-	
+
 	.slick-dots li {
     position: relative;
     display: inline-block;
@@ -137,7 +138,7 @@
     padding: 0;
     cursor: pointer;
 }
-	
+
 	.slick-dots li button
 {
     line-height: 0;
@@ -151,7 +152,7 @@
     outline: none;
     background: transparent;
 }
-	
+
 	.slick-dots li button:hover,
 .slick-dots li button:focus
 {
@@ -185,26 +186,26 @@
 {
     background-color: #13152e;
 }
-	
+
 	.adaptive-hide {
 		display: none;
 	}
-	
+
 	.main-page-footer {
 		min-height: 620px;
 		padding-top: 55px;
 	}
-	
+
 	.contacts-footer {
 		width: 100%;
 	}
-	
+
 	.feedback-form input {
 		margin-right: 3%;
 	}
-	
+
 /*end main page*/
-	
+
 /*All courses page*/
 
 	.subheader-link {
@@ -212,82 +213,82 @@
 		text-align: center;
 		line-height: normal;
 	}
-	
+
 	.course-name {
 		line-height: normal;
 		width: 127px;
 		padding-top: 20px;
 	}
-	
+
 	.courses-nav_item:nth-child(3) .course-name{
 		padding-top: 34px;
 	}
-	
+
 	.all-courses {
 		padding: 40px 0 50px;
 		min-height: 590px;
 	}
-	
+
 	.course-item {
 		display: inline-block;
 		margin-right: 18px;
 	}
-	
+
 	.course-item:nth-child(2) {
 		margin-right: 0;
 	}
-	
+
 	.course-item:nth-child(n+3) {
 		display: none;
 	}
-	
+
 	.course-prev, .course-next {
 		display: none;
 	}
-	
+
 	.start-course:before {
 		background-position: 0 0;
 	}
-	
+
 	.offers {
 		padding-bottom: 62px;
 	}
-	
+
 	.learning {
 		background: #fff;
 		padding: 0;
 		min-height: 350px;
 	}
-	
+
 	.video-container iframe {
 		position: absolute;
 		width: 100%;
 		left: 0;
 		right: 0;
 	}
-	
+
 	.hide {
 		display: none;
 	}
-	
+
 /*sinle item page*/
-	
+
 	.single-course {
 		margin-top: 20px;
 	}
-	
+
 	.lesson__number {
 		margin-right: 7px;
 	}
-	
+
 	.lesson-tabs {
 		text-align: center;
 	}
-	
+
 	.lessons-content {
 		margin-bottom: 50px;
 	}
-	
+
 	.lesson-text {
 		margin-bottom: 0;
 	}

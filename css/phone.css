@@ -1,6 +1,6 @@
 @media screen and (max-width: 767px) {
 
-	.logo {
+/*	.logo {
 		margin-left: 10px;
 		margin-right: 35px;
 	}
@@ -20,9 +20,9 @@
 
 	.adaptive-nav {
 		display: none;
-	}
+	}*/
 
-	.header-title {
+/*	.header-title {
 		font-size: 24px;
 		line-height: 36px;
 		margin-left: 10px;
@@ -37,9 +37,9 @@
 
 	.header-subtitle span {
 		padding: 3px;
-	}
+	}*/
 
-	.about-us {
+/*	.about-us {
 		min-height: 820px;
 	}
 
@@ -53,9 +53,9 @@
 
 	.abous-us_img {
 		height: 145px;
-	}
+	}*/
 
-	.service-item {
+/*	.service-item {
 		width: 96%;
 		margin-bottom: 30px;
 		margin-right: 2%;
@@ -63,8 +63,8 @@
 	}
 	.service-item:last-child {
 		margin-bottom: 0;
-	}
-
+	}*/
+/*
 	.promo-text {
 		display: none;
 	}
@@ -72,9 +72,9 @@
 	.promo-text-adaptive {
 		display: block;
 		width: 96%;
-	}
+	}*/
 
-	.team-member, .team-member_hover {
+/*	.team-member, .team-member_hover {
 		width: 170px;
 		height: 170px;
 		font-size: 20px;
@@ -86,15 +86,16 @@
 		height: 170px;
 	}
 
+
 	.reviews {
 		min-height: 243px;
 	}
 
 	.review-author {
 		display: none;
-	}
+	}*/
 
-	.review-prev, .review-next {
+/*	.review-prev, .review-next {
 		position: relative;
 		display: none !important;
 	}
@@ -112,7 +113,9 @@
 	.slick-dots {
 		width: 100%;
 		margin: 0;
-	}
+	}*/
+
+
 
 	.feedback-btn {
 		left: 0;
