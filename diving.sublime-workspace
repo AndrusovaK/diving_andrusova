@@ -1,0 +1,371 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"hov",
+				"arrow-right_hover.svg"
+			],
+			[
+				"cur",
+				"cur	cursor: ${pointer};"
+			],
+			[
+				"ho",
+				"arrow-left_hover.svg"
+			],
+			[
+				"arr",
+				"arrow-left.svg"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"ic",
+				"icon_baloon.svg"
+			],
+			[
+				"al",
+				"alt	Attr"
+			],
+			[
+				"g",
+				"gallery-phone1.jpg	w:718 h:411"
+			],
+			[
+				"bg",
+				"bg_promo-phone.jpg	w:1024 h:768"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"tea",
+				"team_hover.png	w:160 h:160"
+			],
+			[
+				"ma",
+				"mask_bottom.png	w:1600 h:236"
+			],
+			[
+				"zi",
+				"z-index"
+			],
+			[
+				"mas",
+				"mask_top.png	w:1600 h:389"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"m",
+				"helveticaneuecyr-medium-webfont.woff2"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fo",
+				"format"
+			],
+			[
+				"click",
+				"clickLinkHref"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"s",
+				"section	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 257.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/acer/Documents/Projects/diving_andrusova"
+	],
+	"file_history":
+	[
+		"/C/Users/acer/Documents/Projects/copy_mongo_andrusova/css/style.css",
+		"/C/Users/acer/Documents/Projects/copy_mongo_andrusova/js/index.js",
+		"/C/Users/acer/Documents/Projects/copy_mongo_andrusova/css/large.css",
+		"/C/Users/acer/Documents/Projects/copy_mongo_andrusova/css/desctop.css",
+		"/C/Users/acer/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/acer/Documents/Projects/copy_mongo_andrusova/css/bootstrap.css",
+		"/C/Users/acer/Downloads/bootstrap (2)/css/bootstrap.css",
+		"/C/Users/acer/Downloads/bootstrap (1)/css/bootstrap.css",
+		"/C/Users/acer/Documents/Projects/mongo_andrusova/mongo.sublime-project",
+		"/C/Users/acer/Documents/Projects/mongo_andrusova/css/style.css",
+		"/C/Users/acer/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/acer/Documents/верстка/полезные tools/epic-for-advanced/epic-for-advanced/examples/bootstrap.tabs/add/tab.js",
+		"/C/Users/acer/Documents/верстка/полезные tools/epic-for-advanced/epic-for-advanced/examples/jquery-tabs/js/index.js",
+		"/C/Users/acer/Documents/верстка/полезные tools/табы/dm-tabs/js/dm-tabs.js",
+		"/C/Users/acer/Documents/Projects/diving_andrusova/e3805210f3651b99e3e4990ad164d218/sprites.css",
+		"/C/Users/acer/Documents/верстка/полезные tools/simple-confirmation-popup/simple-confirmation-popup/index.html",
+		"/C/Users/acer/Documents/верстка/полезные tools/epic-for-advanced/epic-for-advanced/examples/jquery-accordeon/js/index.js",
+		"/C/Users/acer/Documents/Projects/boosters_andrusova/css/style.css",
+		"/C/Users/acer/Documents/Projects/sp24_andrusova/index.html",
+		"/C/Users/acer/Documents/верстка/bootstrap/css/bootstrap.css",
+		"/C/Users/acer/Documents/верстка/полезные tools/GammaGallery/GammaGallery/index.html",
+		"/C/Users/acer/Documents/Projects/mongo_andrusova/index.html",
+		"/C/Users/acer/Documents/Projects/boosters/css/style.css",
+		"/C/Users/acer/Documents/Projects/boosters/index.html",
+		"/C/Users/acer/Documents/Projects/grid-16cols/style.css",
+		"/C/Users/acer/Documents/Projects/grid/index.html",
+		"/C/Users/acer/Documents/Projects/lQuery-tabs/index_jquery.html",
+		"/C/Users/acer/Documents/Projects/lQuery-tabs/js/script.js",
+		"/C/Users/acer/Documents/Projects/papka/js/script.js",
+		"/C/Users/acer/Documents/Projects/papka/css/style.css",
+		"/C/Users/acer/Documents/Projects/papka/index.html",
+		"/C/Users/acer/Documents/Projects/grid/style.css",
+		"/C/Users/acer/Documents/Projects/papka/index-jquery.html",
+		"/C/Users/acer/Documents/Projects/sp24_andrusova/css/style.css",
+		"/C/Users/acer/Desktop/Projects/font epic/index.html",
+		"/C/Users/acer/Desktop/Projects/font epic/css/stylesheet.css",
+		"/C/Users/acer/Desktop/sp24_andrusova/index.html",
+		"/C/Users/acer/Desktop/sp24_andrusova/css/style.css",
+		"/C/Users/acer/Desktop/spectech24/contacts.html",
+		"/C/Users/acer/Desktop/spectech24/index.html",
+		"/C/Users/acer/Desktop/spectech24/catalog.html",
+		"/C/Users/acer/Desktop/spectech24/portfolio.html",
+		"/C/Users/acer/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/acer/Desktop/спецтех/index.html",
+		"/C/Users/acer/Desktop/спецтех/contacts.html",
+		"/C/Users/acer/Desktop/спецтех/catalog.html",
+		"/C/Users/acer/Desktop/спецтех/portfolio.html",
+		"/C/Users/acer/Desktop/спецтех/css/style.css",
+		"/C/Users/acer/Desktop/спецтех/index",
+		"/C/Users/acer/Desktop/first-site/index.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"section",
+			"section-ti",
+			"prev",
+			"section-ti",
+			"about-us",
+			"aria",
+			"responsive-menu",
+			".navbar",
+			"navbar-static-top",
+			"timer",
+			"member-name",
+			"team-member",
+			"font",
+			"transitio",
+			"enve",
+			"-300px -80px ",
+			"prev",
+			"input",
+			"gamma-description",
+			"before",
+			"Your Content",
+			"stripe",
+			"h3",
+			"title",
+			"layout-positioner",
+			"a",
+			"div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"container"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "diving.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 209.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
