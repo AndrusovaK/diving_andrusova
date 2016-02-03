@@ -8,8 +8,8 @@
 	<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/tablet.css">
-	<link rel="stylesheet" href="css/phone.css">
+	<!-- <link rel="stylesheet" href="css/tablet.css"> -->
+	<!-- <link rel="stylesheet" href="css/phone.css"> -->
 	<link rel="stylesheet" href="css/owl.carousel.css">
 </head>
 <body>
@@ -78,7 +78,7 @@
  <!--Tab 2-->
   		<div id="second" class="tabs__section">
 
-<!--Corses slider-->
+<!--Courses slider-->
 				<div class="all-courses">
 					<div class="container">
 						<div class="row">
@@ -268,9 +268,17 @@
 				<div class="courses-promo">
 					<div class="container">
 						<div class="row center">
-							<p class="subtitle promo-title">Хватит думать, пора нырять!</p>
+							<div class="col-xs-4 col-lg-8 col-lg-offset-2">
+								<h4 class="subtitle promo-title">Хватит думать, пора нырять!</h4>
+								<p class="promo-text courses-promo-text">Оставь заявку на предполагаемую дату начала погружений</p>
+								<a href="#0" class="cd-popup-trigger promo-btn blue-btn">Записаться</a>
+							</div>
+
+
+
+							<!-- <p class="subtitle promo-title">Хватит думать, пора нырять!</p>
 							<p class="promo-text courses-promo-text">Оставь заявку на предполагаемую дату <br>начала погружений</p>
-							<a href="#0" class="cd-popup-trigger promo-btn blue-btn">Записаться</a>
+							<a href="#0" class="cd-popup-trigger promo-btn blue-btn">Записаться</a> -->
 						</div>
 					</div>
 				</div>
@@ -397,7 +405,7 @@
 <script src="js/owl.carousel.js"></script>
 
 <script>
-	jQuery(document).ready(function () {
+	$(document).ready(function() {
 
   function desktop() {
     var checkWidth = $(window).width();

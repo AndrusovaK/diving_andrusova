@@ -116,7 +116,7 @@
 	}*/
 
 
-
+/*
 	.feedback-btn {
 		left: 0;
 		right: 0;
@@ -130,7 +130,7 @@
 
 	.socials {
 		margin-top: 24px;
-	}
+	}*/
 
 /*pop up*/
 
@@ -169,49 +169,52 @@
 
 /*All courses page*/
 
-	.subheader {
+/*	.subheader {
 		margin-top: 10px;
 		height: 360px;
-	}
+	}*/
 
-	.courses-nav_item {
+/*	.courses-nav_item {
 		display: block;
 		width: 100%;
-	}
+	}*/
 	.courses-nav_item:nth-child(3) .course-name{
 		padding-top: 0;
 	}
-	.course-name {
+/*	.course-name {
 		line-height: 90px;
 		padding-top: 0;
 		width: auto;
-	}
+	}*/
 
-	.offers-table {
+	/*.offers-table {
 		display: none;
-	}
+	}*/
 
-	.courses-promo-text {
+	/*.courses-promo-text {
 		display: block;
 		width: 100%;
-	}
+	}*/
 
-	.course-item {
+/*	.course-item {
 		display: inline-block;
 		margin-right: 0;
 		margin-bottom: 17px;
-	}
+	}*/
 
-	.course-item:nth-child(3) {
+/*	.course-item:nth-child(3) {
 		display: inline-block;
 		margin-right: 0;
 		margin-bottom: 0;
-	}
+	}*/
 
 
-	.course-prev, .course-next {
+	/*.course-prev, .course-next {
 		display: none;
-	}
+	}*/
+
+
+
 
 /*single course page*/
 
