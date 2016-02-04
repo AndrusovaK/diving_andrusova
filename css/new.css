@@ -249,7 +249,7 @@
 
 /*Catalog of courses page*/
 
-.main-nav-inner-pages {
+/*.main-nav-inner-pages {
 	background: rgba(78,168,250, 0.2);
 }
 
@@ -264,10 +264,10 @@
 .courses-nav_item:nth-child(3) .course-name {
 	padding-top: 0;
 }
-
+*/
 /*courses-slider*/
 
-.all-courses {
+/*.all-courses {
 	min-height: 715px;
 	padding: 93px 0 90px;
 }
@@ -326,11 +326,11 @@
 
 .owl-next:hover {
 	background: url(../img/sprites.png) no-repeat -250px 0;
-}
+}*/
 
 /*End courses-slider*/
 
-.offers {
+/*.offers {
 	padding-bottom: 73px;
 	min-height: 430px;
 }
@@ -373,7 +373,7 @@
 .page-footer {
 	min-height: 78px;
 }
-
+*/
 
 /*End catalog page*/
 
@@ -382,17 +382,16 @@
 
 .single-course {
 	min-height: 480px;
-	margin-top: 35px;
 }
 
 .single-course-title {
-	text-align: center;
-	font-weight: 400;
+/*	text-align: center;
+	font-weight: 400;*/
 	font-size: 36px;
-	color: #fff;
+/*	color: #fff;
 	height: 90px;
 	line-height: 90px;
-	background: #e86b0c;
+	background: #e86b0c;*/
 }
 
 .single-course-info {
@@ -404,18 +403,12 @@
 }
 
 .single-course-numbers {
-	color: #fff;
-	font-size: 0px;
 	padding-top: 20px;
-	height: 90px;
-	background: rgba(19,21,46,0.7);
 }
 
 .single-course-numbers span {
-	display: inline-block;
 	font-size: 36px;
 	width: 25%;
-	text-align: center;
 }
 
 .single-course-text {

@@ -178,9 +178,9 @@
 		display: block;
 		width: 100%;
 	}*/
-	.courses-nav_item:nth-child(3) .course-name{
+/*	.courses-nav_item:nth-child(3) .course-name{
 		padding-top: 0;
-	}
+	}*/
 /*	.course-name {
 		line-height: 90px;
 		padding-top: 0;
@@ -218,46 +218,46 @@
 
 /*single course page*/
 
-	.single-course {
+/*	.single-course {
 		margin-top: 35px;
 	}
-
-	.single-course-title {
+*/
+/*	.single-course-title {
 		font-size: 24px;
-	}
+	}*/
 
-	.single-course-numbers {
+/*	.single-course-numbers {
 		padding: 0;
-	}
+	}*/
 
-	.single-course-numbers span{
+/*	.single-course-numbers span{
 		font-size: 24px;
 		width: 50%;
 		line-height: 45px;
-	}
+	}*/
 
-	.single-course-text {
+	/*.single-course-text {
 		font-size: 14px;
 		width: 100%;
 		left: 0;
-	}
+	}*/
 
-	.lesson__number span {
+	/*.lesson__number span {
 		display: none;
-	}
+	}*/
 
-	.lesson-tabs-link{
+/*	.lesson-tabs-link{
 		height: 40px;
 		min-width: 40px;
 		line-height: 40px;
-	}
-
+	}*/
+/*
 	.lesson__number {
 		margin-right: 4px;
 	}
 	.lesson__number:last-child {
 		margin-right: 0;
-	}
+	}*/
 
 	.single-course-promo-text {
 		display: block;

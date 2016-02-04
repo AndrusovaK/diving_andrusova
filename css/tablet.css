@@ -1,7 +1,7 @@
 
 
 /*All courses page*/
-
+/*
 .subheader {
 	height: 90px;
 }
@@ -26,11 +26,11 @@
 
 .courses-nav_item:nth-child(3) .course-name{
 	padding-top: 34px;
-}
+}*/
 
 /*courses-slider*/
 
-.all-courses {
+/*.all-courses {
 	padding: 40px 0 50px;
 	min-height: 590px;
 }
@@ -51,11 +51,11 @@
 
 .start-course:before {
 	background-position: 0 0;
-}
+}*/
 
 /*Special offers*/
 
-.offers {
+/*.offers {
 	padding-bottom: 62px;
 }
 
@@ -102,11 +102,11 @@ tr:nth-child(2n+1) {
 tr:first-child {
 	background-color: #fff;
 }
-
+*/
 
 /*Video learning block*/
 
-.learning {
+/*.learning {
 	min-height: 357px;
 }
 
@@ -126,7 +126,7 @@ tr:first-child {
 
 .page-footer {
 	min-height: 85px;
-}
+}*/
 
 
 /*single item page*/
@@ -139,9 +139,9 @@ tr:first-child {
 		margin-right: 7px;
 	}
 
-	.lesson-tabs {
+/*	.lesson-tabs {
 		text-align: center;
-	}
+	}*/
 
 	.lessons-content {
 		margin-bottom: 50px;
