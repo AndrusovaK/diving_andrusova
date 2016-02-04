@@ -1967,7 +1967,7 @@ Single course page
 	color: #fff;
 	font-size: 0px;
 	padding: 0;
-	height: 90px;
+	min-height: 90px;
 	background: rgba(19,21,46,0.7);
 }
 
@@ -1997,7 +1997,6 @@ Single course page
 }
 
 .single-course-details {
-	min-height: 1015px;
 	padding: 35px 0 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -2121,8 +2120,68 @@ li.current {
 .single-course-promo-text {
 	font-size: 24px;
 	margin: 0 auto;
-	width: 220px;
+	width: 70%;
 	margin-bottom: 45px;
+}
+
+@media (min-width: 768px) {
+
+	.single-course {
+	margin-top: 20px;
+}
+
+.single-course-details {
+	min-height: 650px;
+	padding: 50px 0 35px;
+}
+
+.single-course-info {
+	min-height: 390px;
+}
+
+.single-course-numbers {
+	padding-top: 20px;
+}
+
+.single-course-numbers span {
+	font-size: 36px;
+	width: 25%;
+}
+
+.single-course-text {
+	right: 0;
+	left: inherit;
+	bottom: 35px;
+	width: 552px;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.single-course-text span {
+	line-height: 33px;
+}
+
+.lesson__number {
+	margin-right: 7px;
+}
+
+.lesson-tabs-link {
+	height: 60px;
+	min-width: 60px;
+	line-height: 60px;
+}
+
+.lesson__number span {
+	display: inline-block;
+}
+
+.lessons-content {
+	margin-bottom: 50px;
+}
+
+.lesson-details_text {
+	padding-bottom: 30px;
+}
 }
 
 

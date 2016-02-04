@@ -131,26 +131,64 @@ tr:first-child {
 
 /*single item page*/
 
-	.single-course {
-		margin-top: 20px;
-	}
-
-	.lesson__number {
-		margin-right: 7px;
-	}
-
-/*	.lesson-tabs {
-		text-align: center;
-	}*/
-
-	.lessons-content {
-		margin-bottom: 50px;
-	}
-
-	.lesson-text {
-		margin-bottom: 0;
-	}
+.single-course {
+	margin-top: 20px;
 }
+
+.single-course-details {
+	min-height: 650px;
+	padding: 50px 0 35px;
+}
+
+.single-course-info {
+	min-height: 390px;
+}
+
+.single-course-numbers {
+	padding-top: 20px;
+}
+
+.single-course-numbers span {
+	font-size: 36px;
+	width: 25%;
+}
+
+.single-course-text {
+	right: 0;
+	left: inherit;
+	bottom: 35px;
+	width: 552px;
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.single-course-text span {
+	line-height: 33px;
+}
+
+
+.lesson__number {
+	margin-right: 7px;
+}
+
+.lesson-tabs-link {
+	height: 60px;
+	min-width: 60px;
+	line-height: 60px;
+}
+
+.lesson__number span {
+	display: inline-block;
+}
+
+.lessons-content {
+	margin-bottom: 50px;
+}
+
+.lesson-details_text {
+	padding-bottom: 30px;
+}
+
 
 
 
