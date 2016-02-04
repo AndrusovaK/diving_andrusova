@@ -2124,6 +2124,15 @@ li.current {
 	margin-bottom: 45px;
 }
 
+
+/***********
+
+Single page Responsive
+
+************/
+
+/*Tablet*/
+
 @media (min-width: 768px) {
 
 	.single-course {
@@ -2181,6 +2190,40 @@ li.current {
 
 .lesson-details_text {
 	padding-bottom: 30px;
+}
+}
+
+/*Large screens*/
+
+@media (min-width: 1220px) {
+	.single-course {
+	min-height: 480px;
+	margin-top: 35px;
+}
+
+.single-course-title {
+	font-size: 36px;
+}
+
+.single-course-details {
+	min-height: 515px;
+	padding: 45px 0 65px;
+}
+
+.lesson__number {
+	margin-right: 5px;
+}
+
+.lessons-content {
+	margin-bottom: 0;
+}
+
+.lesson-text {
+	margin-bottom: 30px;
+}
+
+.lesson-text:last-child {
+	margin-bottom: 0;
 }
 }
 
