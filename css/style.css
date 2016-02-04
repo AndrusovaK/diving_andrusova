@@ -1566,6 +1566,7 @@ Catalog of courses page
 }
 
 .offers-image {
+	display: block;
 	background: url(../img/living.jpg) no-repeat 0 0;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -2017,18 +2018,6 @@ Single course page
 	vertical-align: middle;
 	font-size: 18px;
 	margin-right: 4px;
-}
-
-.lesson__number:last-child {
-	margin-right: 0;
-}
-
-.lesson__number span {
-	display: none;
-}
-
-.lesson-tabs-link {
-	display: inline-block;
 	height: 38px;
 	border: 1px solid #949494;
 	min-width: 38px;
@@ -2040,6 +2029,14 @@ Single course page
 	line-height: 38px;
 	color: #949494;
 	cursor: pointer;
+}
+
+.lesson__number:last-child {
+	margin-right: 0;
+}
+
+.lesson__number span {
+	display: none;
 }
 
 li.current {
@@ -2172,9 +2169,6 @@ Single page Responsive
 
 .lesson__number {
 	margin-right: 7px;
-}
-
-.lesson-tabs-link {
 	height: 60px;
 	min-width: 60px;
 	line-height: 60px;
@@ -2229,6 +2223,11 @@ Single page Responsive
 
 
 /*pop up styles*/
+
+.hide-field {
+	display: none;
+}
+
 .img-replace {
   /* replace text with an image */
   display: inline-block;
@@ -2262,11 +2261,11 @@ Single page Responsive
 
 .cd-popup-container {
   position: relative;
-  width: 725px;
+  width: 320px;
   margin: 1em auto;
   background: #FFF;
   text-align: left;
-	padding: 0 65px 45px 65px;
+	padding:  0 22px 30px 22px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 
   -webkit-transform: translateY(-40px);
@@ -2286,18 +2285,18 @@ Single page Responsive
 .cd-popup-container p {
 	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
-	line-height: 20px;
-  	padding: 50px 0;
+	line-height: 30px;
+	padding: 35px 0;
 	text-align: center;
 }
 .cd-popup-container .cd-buttons:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 .cd-popup-container .cd-buttons li {
-  float: right;
-  list-style: none;
+	float: left;
+	list-style: none;
 }
 .cd-popup-container .cd-buttons a {
   display: block;
@@ -2349,12 +2348,12 @@ Single page Responsive
 }
 
 .form-row {
-	margin-bottom: 15px;
 	font-weight: 300;
 }
 
 .form-field {
 	width: 280px;
+	margin-bottom: 15px;
 }
 
 .form-field:first-child {
@@ -2383,7 +2382,32 @@ select, input, textarea {
 	background: #f9f7f7;
 }
 
+@media (min-width: 768px) {
 
-.owl-carousel.off {
-    display: block;
+	.hide-field {
+		display: block;
+	}
+
+	.cd-popup-container {
+		width: 725px;
+		padding: 0 65px 45px 65px;
+	}
+
+	.cd-popup-container p {
+		line-height: 20px;
+		padding: 50px 0;
+	}
+
+	.form-row {
+		margin-bottom: 15px;
+	}
+
+	.cd-popup-container .cd-buttons li {
+		float: right;
+		margin-top: none;
+	}
+
+	.form-field {
+		margin-bottom: 0;
+	}
 }
