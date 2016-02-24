@@ -11,7 +11,7 @@ $(function () {
 
 
 //выпадающая менюшка
-$(document).ready(function(){
+$(function(){
   var touch = $('#touch-menu');
     var menu = $('.adaptive-nav');
 
@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 //Pop up
 
-jQuery(document).ready(function($){
+$(function($){
   //open popup
   $('.cd-popup-trigger').on('click', function(event){
     event.preventDefault();
@@ -85,7 +85,7 @@ $('#review-carousel').slick({
 
 //табы на странице 1 курса
 
-$(document).ready(function(){
+$(function(){
 
   $('ul.tabs li').click(function(){
     var tab_id = $(this).attr('data-tab');
