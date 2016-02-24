@@ -1,14 +1,3 @@
-//Плавный скролл
-$(function () {
-  var link = $('a[href^="#"]');
-  var navLink = link.not('a[href="#0"]');
-
-  navLink.on('click',function(e){
-      var target_position = $(this.hash).offset().top;
-      $('body,html').animate({'scrollTop':target_position},500);
-  });
-});
-
 
 //выпадающая менюшка
 $(function(){
@@ -155,6 +144,15 @@ var helper = new AccordeonController(".accordeon", ".accordeon__item");
 helper.init();
 
 
+//Плавный скролл
+$(function () {
+  var link = $('a[href^="#"]');
+  var navLink = link.not('a[href="#0"]');
 
+  navLink.on('click',function(e){
+      var target_position = $(this.hash).offset().top;
+      $('body,html').animate({'scrollTop':target_position},500);
+  });
+});
 
 
